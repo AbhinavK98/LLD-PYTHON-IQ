@@ -7,12 +7,12 @@ class Food(ABC):
         pass
 
 
-class Pizza:
+class Pizza(Food):
     def prepare(self):
         print("Preparing pizza")
 
 
-class Burger:
+class Burger(Food):
     def prepare(self):
         print("Preparing burger")
 
