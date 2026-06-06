@@ -1,3 +1,9 @@
+"""Factory Pattern - Good Example
+
+This file shows the good example implementation in the Factory Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -48,3 +54,8 @@ class RestrauntService:
 restraunt_service = RestrauntService()
 restraunt_service.create_order("pizza")
 restraunt_service.create_order("burger")
+
+# Revision summary:
+# - Part of the Factory Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

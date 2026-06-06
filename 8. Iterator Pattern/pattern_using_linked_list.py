@@ -1,3 +1,9 @@
+"""Iterator Pattern - Pattern Using Linked List
+
+This file shows the Pattern Using Linked List example in the Iterator Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -99,3 +105,8 @@ iterator = playlist.create_iterator()
 print("Playing all songs:")
 while iterator.has_next():
     print(f"{iterator.next().get_title()}")
+
+# Revision summary:
+# - Part of the Iterator Pattern examples.
+# - Shows the Pattern Using Linked List example.
+# - Use this file to review the pattern and understand its purpose.

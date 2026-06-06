@@ -1,3 +1,9 @@
+"""Mediator Pattern - With Pattern
+
+This file shows the With Pattern example in the Mediator Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 from typing import List
 
@@ -51,3 +57,8 @@ air_india.send_message("I am getting on runway")
 
 express = Airplane("EXP-1122", control_tower)
 express.send_message("I am getting on runway")
+
+# Revision summary:
+# - Part of the Mediator Pattern examples.
+# - Shows the With Pattern example.
+# - Use this file to review the pattern and understand its purpose.

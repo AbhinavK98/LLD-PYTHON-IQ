@@ -1,3 +1,9 @@
+"""Composite Pattern - Bad Example
+
+This file shows the bad example implementation in the Composite Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 
 
@@ -34,3 +40,8 @@ folder.add_file(file2)
 folder.add_file(file3)
 
 folder.show_details()
+
+# Revision summary:
+# - Part of the Composite Pattern examples.
+# - Shows the bad example implementation.
+# - Use this file to review the pattern and understand its purpose.

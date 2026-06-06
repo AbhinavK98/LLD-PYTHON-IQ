@@ -1,3 +1,9 @@
+"""Facade Pattern - Bad Example
+
+This file shows the bad example implementation in the Facade Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class UserService:
     def login(self, username: str, password: str) -> dict:
         print(f"[UserService] Logging in: {username}")
@@ -25,3 +31,8 @@ user_service.login("test", "pass")
 user_service.get_profile("hjk232322")
 
 print(order_service.get_orders("hjk232322"))
+
+# Revision summary:
+# - Part of the Facade Pattern examples.
+# - Shows the bad example implementation.
+# - Use this file to review the pattern and understand its purpose.

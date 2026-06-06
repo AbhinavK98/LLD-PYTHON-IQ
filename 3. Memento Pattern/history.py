@@ -1,3 +1,9 @@
+"""Memento Pattern - History
+
+This file shows the History example in the Memento Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from text_memento import TextMemento
 from typing import List
 
@@ -21,3 +27,8 @@ class History:
     def get_history(self):
         for i in range(len(self.__history)):
             print(f"{i} = {self.__history[i].get_saved_text()}")
+
+# Revision summary:
+# - Part of the Memento Pattern examples.
+# - Shows the History example.
+# - Use this file to review the pattern and understand its purpose.

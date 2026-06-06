@@ -1,3 +1,9 @@
+"""Oops Recap - Dependency
+
+This file shows the Dependency example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class Document:
     def __init__(self, title: str, content: str, pages: int) -> None:
         self.__title: str = title
@@ -57,3 +63,8 @@ office_printer.print_document(doc2)  # Print second document
 # Documents still exist independently
 print(f"Document 1 still exists: {doc1.get_title()}")
 print(f"Document 2 still exists: {doc2.get_title()}")
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Dependency example.
+# - Use this file to review the pattern and understand its purpose.

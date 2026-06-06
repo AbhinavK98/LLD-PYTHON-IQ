@@ -1,3 +1,9 @@
+"""Oops Recap - Aggregation
+
+This file shows the Aggregation example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 
 
@@ -51,3 +57,8 @@ del cs_dept  # Department deleted
 # Students are still alive and can be used
 print(f"\nStudent still exists: {student1.get_name()}")
 # Output: Student still exists: Rahul
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Aggregation example.
+# - Use this file to review the pattern and understand its purpose.

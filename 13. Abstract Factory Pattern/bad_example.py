@@ -1,3 +1,9 @@
+"""Abstract Factory Pattern - Bad Example
+
+This file shows the bad example implementation in the Abstract Factory Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -90,3 +96,8 @@ class RestaurantService:
 
 restaurant = RestaurantService()
 restaurant.create_meal("north_indian")
+
+# Revision summary:
+# - Part of the Abstract Factory Pattern examples.
+# - Shows the bad example implementation.
+# - Use this file to review the pattern and understand its purpose.

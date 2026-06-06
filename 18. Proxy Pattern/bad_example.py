@@ -1,3 +1,9 @@
+"""Proxy Pattern - Bad Example
+
+This file shows the bad example implementation in the Proxy Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 import time
 
 
@@ -37,3 +43,8 @@ photo_gallery.add_image("image3.png")
 photo_gallery.add_image("image4.png")
 
 # photo_gallery.display_gallery()
+
+# Revision summary:
+# - Part of the Proxy Pattern examples.
+# - Shows the bad example implementation.
+# - Use this file to review the pattern and understand its purpose.

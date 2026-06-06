@@ -1,3 +1,9 @@
+"""Composite Pattern - Good Example
+
+This file shows the good example implementation in the Composite Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 from abc import ABC, abstractmethod
 
@@ -47,3 +53,8 @@ main_folder.add_component(movie)
 main_folder.add_component(sub_folder)
 
 main_folder.show_details()
+
+# Revision summary:
+# - Part of the Composite Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

@@ -1,3 +1,9 @@
+"""Prototype Pattern - Good Example
+
+This file shows the good example implementation in the Prototype Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 import copy
 
@@ -53,3 +59,8 @@ print("------------")
 new_chess_board.add_piece(ChessPiece("Soldier", "d7", "black"))
 new_chess_board.display_board()
 chess_board.display_board()
+
+# Revision summary:
+# - Part of the Prototype Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

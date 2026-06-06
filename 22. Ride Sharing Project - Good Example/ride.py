@@ -1,3 +1,9 @@
+"""Ride Sharing Project - Ride
+
+This file shows the Ride example in the Ride Sharing Project section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from enum import Enum
 from passenger import Passenger
 from driver import Driver
@@ -38,3 +44,8 @@ class Ride:
     def __notifyUsers(self, ride_status: RideStatus):
         self.driver.notify(f"Your ride is {ride_status.value}")
         self.passenger.notify(f"Your ride status is {ride_status.value}")
+
+# Revision summary:
+# - Part of the Ride Sharing Project examples.
+# - Shows the Ride example.
+# - Use this file to review the pattern and understand its purpose.

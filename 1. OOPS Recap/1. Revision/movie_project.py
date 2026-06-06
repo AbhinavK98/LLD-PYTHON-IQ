@@ -45,3 +45,8 @@ movie.book_tickets(70)
 movie.show_status()
 
 movie.book_tickets(70)
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Movie Project example.
+# - Use this file to review the pattern and understand its purpose.

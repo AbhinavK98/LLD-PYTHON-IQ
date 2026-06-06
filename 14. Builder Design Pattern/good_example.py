@@ -1,3 +1,9 @@
+"""Builder Design Pattern - Good Example
+
+This file shows the good example implementation in the Builder Design Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class Laptop:
     processor = None
     ram = None
@@ -48,3 +54,8 @@ class LaptopBuilder:
 
 l = LaptopBuilder().set_processor("i5-43423").set_ram("5").set_color("black").build()
 l.display_specs()
+
+# Revision summary:
+# - Part of the Builder Design Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

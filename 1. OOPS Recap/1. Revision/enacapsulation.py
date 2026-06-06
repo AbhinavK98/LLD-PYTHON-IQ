@@ -1,3 +1,9 @@
+"""Oops Recap - Enacapsulation
+
+This file shows the Enacapsulation example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class Bank:
     def __init__(self, name: str, balance: int):
         self.name: str = name
@@ -35,3 +41,8 @@ acc.deposit(1000)
 acc.get_balance()
 acc.withdraw(500)
 acc.__isServerLive()
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Enacapsulation example.
+# - Use this file to review the pattern and understand its purpose.

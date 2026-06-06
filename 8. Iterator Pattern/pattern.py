@@ -1,3 +1,9 @@
+"""Iterator Pattern - Pattern
+
+This file shows the Pattern example in the Iterator Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 from abc import ABC, abstractmethod
 
@@ -60,3 +66,8 @@ iterator = playlist.create_iterator()
 
 while iterator.has_next():
     print(iterator.next().get_title())
+
+# Revision summary:
+# - Part of the Iterator Pattern examples.
+# - Shows the Pattern example.
+# - Use this file to review the pattern and understand its purpose.

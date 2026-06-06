@@ -1,3 +1,9 @@
+"""Facade Pattern - Good Example
+
+This file shows the good example implementation in the Facade Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class UserService:
     def login(self, username: str, password: str) -> dict:
         print(f"[UserService] Logging in: {username}")
@@ -39,3 +45,8 @@ class ApiGateway:
 
 api_gateway = ApiGateway()
 api_gateway.get_all_details("d23e32", "test", "123")
+
+# Revision summary:
+# - Part of the Facade Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

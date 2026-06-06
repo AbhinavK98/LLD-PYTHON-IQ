@@ -1,3 +1,9 @@
+"""Oops Recap - Composition
+
+This file shows the Composition example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import Optional
 
 
@@ -49,3 +55,8 @@ del my_car  # Car deleted, Engine also deleted automatically!
 # Engine has no independent existence outside the Car
 
 print("Car and its Engine are both destroyed!")
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Composition example.
+# - Use this file to review the pattern and understand its purpose.

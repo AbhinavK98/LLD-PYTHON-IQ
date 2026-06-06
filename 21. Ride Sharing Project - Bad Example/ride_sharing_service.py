@@ -1,3 +1,9 @@
+"""Ride Sharing Project - Ride Sharing Service
+
+This file shows the Ride Sharing Service example in the Ride Sharing Project section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 from driver import Driver
 from passenger import Passenger
@@ -56,3 +62,8 @@ class RideSharingServiceApp:
             f"Ride booked for {passenger.name} with driver {assignedDriver.name} with fare of Rs.{expectedFare}"
         )
         print(f"Driver is on the way and is {minDistance:.2f}km away")
+
+# Revision summary:
+# - Part of the Ride Sharing Project examples.
+# - Shows the Ride Sharing Service example.
+# - Use this file to review the pattern and understand its purpose.

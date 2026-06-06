@@ -1,3 +1,9 @@
+"""Observer Pattern - Weather Station
+
+This file shows the Weather Station example in the Observer Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from observer import Observer
 from typing import List
 
@@ -20,3 +26,8 @@ class WeatherStation:
     def notify_observers(self):
         for observer in self.__observers:
             observer.update(self.__temprature)
+
+# Revision summary:
+# - Part of the Observer Pattern examples.
+# - Shows the Weather Station example.
+# - Use this file to review the pattern and understand its purpose.

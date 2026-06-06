@@ -1,3 +1,9 @@
+"""Abstract Factory Pattern - Good Example
+
+This file shows the good example implementation in the Abstract Factory Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -133,3 +139,8 @@ restaurant_service.create_meal()
 chinese = ChineseCuisine()
 restaurant_service.change_cuisine(chinese)
 restaurant_service.create_meal()
+
+# Revision summary:
+# - Part of the Abstract Factory Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

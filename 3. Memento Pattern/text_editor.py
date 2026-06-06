@@ -1,3 +1,9 @@
+"""Memento Pattern - Text Editor
+
+This file shows the Text Editor example in the Memento Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from text_memento import TextMemento
 
 
@@ -16,3 +22,8 @@ class TextEditor:
 
     def restore(self, tm: TextMemento):
         self.__text = tm.get_saved_text()
+
+# Revision summary:
+# - Part of the Memento Pattern examples.
+# - Shows the Text Editor example.
+# - Use this file to review the pattern and understand its purpose.

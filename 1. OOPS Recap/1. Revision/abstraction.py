@@ -1,3 +1,9 @@
+"""Oops Recap - Abstraction
+
+This file shows the Abstraction example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -27,3 +33,8 @@ class Rectangle(Shape):
 r = Rectangle(5, 2)
 r.area()
 r.perimeter()
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Abstraction example.
+# - Use this file to review the pattern and understand its purpose.

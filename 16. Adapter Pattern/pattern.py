@@ -1,3 +1,9 @@
+"""Adapter Pattern - Pattern
+
+This file shows the Pattern example in the Adapter Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -50,3 +56,8 @@ send_grid_service = SendGridEmailService()
 send_grid_adapter = SendGridAdapter(send_grid_service)
 order_service = OrderService(send_grid_adapter)
 order_service.create_order()
+
+# Revision summary:
+# - Part of the Adapter Pattern examples.
+# - Shows the Pattern example.
+# - Use this file to review the pattern and understand its purpose.

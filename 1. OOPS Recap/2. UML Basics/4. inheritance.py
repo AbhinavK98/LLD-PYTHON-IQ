@@ -1,3 +1,9 @@
+"""Oops Recap - Inheritance
+
+This file shows the Inheritance example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 # Parent class (Superclass)
 class Animal:
     def __init__(self, name: str, age: int):
@@ -47,3 +53,8 @@ dog1.sleep()
 # Dog's own methods
 dog1.bark()
 dog1.play_fetch()
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Inheritance example.
+# - Use this file to review the pattern and understand its purpose.

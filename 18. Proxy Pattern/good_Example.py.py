@@ -1,3 +1,9 @@
+"""Proxy Pattern - Good Example.Py
+
+This file shows the Good Example.Py example in the Proxy Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 import time
 
 
@@ -61,3 +67,8 @@ photo_gallery.show_image(2)
 print("----------")
 photo_gallery.show_image(2)
 print("----------")
+
+# Revision summary:
+# - Part of the Proxy Pattern examples.
+# - Shows the Good Example.Py example.
+# - Use this file to review the pattern and understand its purpose.

@@ -1,3 +1,9 @@
+"""Ride Sharing Project - Ride Matching Service
+
+This file shows the Ride Matching Service example in the Ride Sharing Project section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from typing import List
 from driver import Driver
 from passenger import Passenger
@@ -46,3 +52,8 @@ class RideMatchingService:
                 minDistance = dist
                 assignedDriver = driver
         return assignedDriver
+
+# Revision summary:
+# - Part of the Ride Sharing Project examples.
+# - Shows the Ride Matching Service example.
+# - Use this file to review the pattern and understand its purpose.

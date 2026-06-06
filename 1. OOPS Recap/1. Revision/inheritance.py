@@ -1,3 +1,9 @@
+"""Oops Recap - Inheritance
+
+This file shows the Inheritance example in the Oops Recap section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class Animal:
     def __init__(self, name: str, age: int):
         print("Animal INIT")
@@ -31,3 +37,8 @@ class Dog(Animal):
 
 dog = Dog("Cheery", 5, "Indie")
 dog.move()
+
+# Revision summary:
+# - Part of the Oops Recap examples.
+# - Shows the Inheritance example.
+# - Use this file to review the pattern and understand its purpose.

@@ -1,3 +1,9 @@
+"""Decorater Pattern - Good Example
+
+This file shows the good example implementation in the Decorater Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from abc import ABC, abstractmethod
 
 
@@ -60,3 +66,8 @@ coffee = MilkDecorator(coffee)
 coffee = WhipCreamDecorator(coffee)
 print(coffee.get_description())
 print(coffee.get_cost())
+
+# Revision summary:
+# - Part of the Decorater Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.

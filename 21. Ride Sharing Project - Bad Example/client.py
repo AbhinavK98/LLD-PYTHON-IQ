@@ -1,3 +1,9 @@
+"""Ride Sharing Project - Client
+
+This file shows the Client example in the Ride Sharing Project section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from location import Location
 from vehicle import Vehicle
 from ride_sharing_service import RideSharingServiceApp
@@ -26,3 +32,8 @@ ride_sharing_service.add_passenger(passenger2)
 ride_sharing_service.bookRide(passenger1, 30)
 ride_sharing_service.bookRide(passenger2, 50)
 ride_sharing_service.bookRide(passenger2, 50)
+
+# Revision summary:
+# - Part of the Ride Sharing Project examples.
+# - Shows the Client example.
+# - Use this file to review the pattern and understand its purpose.

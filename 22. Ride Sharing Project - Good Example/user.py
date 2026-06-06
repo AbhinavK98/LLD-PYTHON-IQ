@@ -1,3 +1,9 @@
+"""Ride Sharing Project - User
+
+This file shows the User example in the Ride Sharing Project section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 from location import Location
 from abc import ABC, abstractmethod
 
@@ -17,3 +23,8 @@ class User(ABC):
     @abstractmethod
     def notify(self):
         pass
+
+# Revision summary:
+# - Part of the Ride Sharing Project examples.
+# - Shows the User example.
+# - Use this file to review the pattern and understand its purpose.

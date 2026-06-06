@@ -1,3 +1,9 @@
+"""Builder Design Pattern - Bad Example
+
+This file shows the bad example implementation in the Builder Design Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class Laptop:
     def __init__(
         self,
@@ -29,3 +35,8 @@ laptop1.display_specs()
 
 laptop2 = Laptop("i5-3232", "6", None, "Black", None)
 laptop2.display_specs()
+
+# Revision summary:
+# - Part of the Builder Design Pattern examples.
+# - Shows the bad example implementation.
+# - Use this file to review the pattern and understand its purpose.

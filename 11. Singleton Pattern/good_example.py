@@ -1,3 +1,9 @@
+"""Singleton Pattern - Good Example
+
+This file shows the good example implementation in the Singleton Pattern section.
+It explains the core idea in simple language and shows how the code works.
+"""
+
 class Logger:
     # Class Variable
     __instance = None
@@ -31,3 +37,8 @@ log3.log("Good")
 print(log1.get_log_count())
 print(log2.get_log_count())
 print(log3.get_log_count())
+
+# Revision summary:
+# - Part of the Singleton Pattern examples.
+# - Shows the good example implementation.
+# - Use this file to review the pattern and understand its purpose.
